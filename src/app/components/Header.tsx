@@ -14,12 +14,12 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { useState } from "react";
+
 
 function Header() {
 
   const activeLink = usePathname();
-  const [isOpen , setIsOpen] = useState(false)
+
 
   return (
     <nav className="bg-white  w-full  p-4  ">
